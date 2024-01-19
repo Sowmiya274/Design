@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'josefin sans',sans-serif;
+    box-sizing:border-box;
+}
+.heroine
+{
+    color: #000;
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-position:center ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right:8%;
+}
+.logo
+{
+    color:black;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer; 
+    align-items: center;
+}
+.logo span{
+    color: #228b22;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li.about {
+    margin-right: 0;
+}
+nav ul li :hover
+{
+ color:#f9004d;
+ transition: .4s;
+}
+.content{
+    position: absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+h4{
+    color:#141313;
+    letter-spacing: 1px;
+}
+h3{
+    color:black;
+    margin:2px 0px 2px;
+    font-size:30px;
+}
+h5{
+    color:black;
+     font-size: 25px;
+     margin-bottom: 50px;
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 5px 14px 5px;
+    background-origin: 5px solid #f9004d;
+    outline: none;
+    border-radius:15px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    overflow: none;
+    border:none;
+    padding: 5px 8px;
+    border-radius:20px;
+    background-color: #f9004d;
+    color: white;
+cursor: pointer;
+box-shadow: 1px 1px 5px #000, 0px 0px 15px #868686;
+top:6px;
+right:6px;
+}
+.share{
+    position:absolute;
+    top:90%;
+    left:8%;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.share p{
+    font-size: 17px;
+    color:#000;
+    margin-right: 30px;
+}
+.share .social a{
+    display: inline-block;
+    color:black;
+    margin-right: 10px;
+    transition: transform .2s;
+}
+.share .social a:hover{
+    transform: scale(1.6);
+}
