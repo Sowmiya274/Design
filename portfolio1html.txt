@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PORTFOLIO</title>
+        <link rel="stylesheet" type="text/css" href="portfolio1.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700;100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous">
+        <style>
+            body {
+                background-image: url(mickey-mouse-laptop.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="heroine">
+            <nav>
+                <h2 class="logo">port<span>folio</span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/1JzDWVe5y4I2X2NocAEUVepaPPfDwUik_/view?usp=drivesdk">Resume</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h4>Hello,my name is</h4>
+                <h3><span>Sowmiya M</span></h3>
+                <h5>I'm a Front end developer</h5>
+                <section class="About Me" id="about">
+                    <div class="container">
+                        <div class="about-content">
+                          <div class="left-content">
+                      </div>
+                    </div>
+                </div>
+                </section>
+
+                <div class="newslatter">
+                    <form>
+                        <input type="email" name="email" id="mail" placeholder="enter your email">
+                        <input type="submit" name="submit" value="let's start">
+                    </form>
+                </div>
+            </div>
+            <div class="share">
+                <p>Let's connect:</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/shiya-undefined-879a88240/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.codechef.com/users/sowmiya2704" target="blank"><i class="fa-solid fa-bug"></i></a>
+                    <a href="https://github.com/Sowmiya274" target="blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/sudershansuders1" target="blank"><i class="fab fa-hackerrank"></i></a>
+                    <a href="https://www.instagram.com/s_o_w_mi_y_a/" target="blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
